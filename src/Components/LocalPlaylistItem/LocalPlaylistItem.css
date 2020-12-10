@@ -1,0 +1,28 @@
+.LocalPlaylistItems {
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+
+.LocalplaylistItem-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+.LocalplaylistItem-info h3 {
+    margin-bottom: .22rem;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.LocalplaylistItem-info h3:hover {
+    background-color: rgba(69, 3, 252, .5);
+    cursor: pointer;
+}
+

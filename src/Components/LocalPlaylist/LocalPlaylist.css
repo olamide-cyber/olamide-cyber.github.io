@@ -1,0 +1,27 @@
+.LocalPlaylist {
+    width: 50%;
+    height: auto;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(1, 12, 63, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+    margin-left: .90rem;
+    max-height: 800px;
+}
+
+.LocalPlaylist h2 {
+    color: white;
+    padding: 15px 15px;
+}
+  
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+    .LocalPlaylist {
+        width: 95%;
+        margin-top: 2rem;
+    }
+}
